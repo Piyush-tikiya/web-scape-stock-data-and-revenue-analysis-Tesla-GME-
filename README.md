@@ -1,4 +1,4 @@
-# 📈 Stock Data Web Scraping and Analysis (Tesla | GME)
+# 📈 ***Stock Data Web Scraping and Analysis (Tesla | GME)***
 
 ## 📌 Project Overview
 
@@ -55,7 +55,8 @@ tesla_data = Tesla.history(period="max")
 
 ### Output
 
-![Tesla Stock Data](images/Q1.png)
+<img width="1780" height="701" alt="image" src="https://github.com/user-attachments/assets/4ecc5ba8-e73e-4320-994e-2ded1d10ea3a" />
+
 
 ---
 
@@ -76,7 +77,8 @@ Revenue tables are then converted into a Pandas DataFrame.
 
 ### Output
 
-![Tesla Revenue](images/Q2.png)
+<img width="1672" height="747" alt="image" src="https://github.com/user-attachments/assets/a6513c91-a0ec-4961-bfa4-c4d7ed7b75ea" />
+
 
 ---
 
@@ -91,7 +93,8 @@ gme_data = gme.history(period="max")
 
 ### Output
 
-![GameStop Stock](images/Q3.png)
+<img width="1811" height="381" alt="image" src="https://github.com/user-attachments/assets/b66a7a17-0bda-4138-b9ca-f40a7e82e5a7" />
+
 
 ---
 
@@ -106,8 +109,8 @@ table_rows = soup.select("tbody tr")
 The extracted values are stored in a DataFrame.
 
 ### Output
+<img width="1521" height="667" alt="image" src="https://github.com/user-attachments/assets/747a0226-468c-4cc0-823e-fee70d9cadf6" />
 
-![GameStop Revenue](images/Q4.png)
 
 ---
 
@@ -124,7 +127,7 @@ This helps identify whether revenue growth aligns with stock price performance.
 
 ### Dashboard
 
-![Tesla Dashboard](images/Q5.png)
+<img width="1105" height="702" alt="image" src="https://github.com/user-attachments/assets/56ce38bc-e2b5-497e-8531-7f6a8946bb48" />
 
 ---
 
@@ -134,7 +137,8 @@ A similar dashboard is created for GameStop.
 
 ### Dashboard
 
-![GameStop Dashboard](images/Q6.png)
+<img width="1052" height="732" alt="image" src="https://github.com/user-attachments/assets/9693408a-58f2-43aa-9065-f73c4abe159a" />
+
 
 ---
 
@@ -264,32 +268,11 @@ Through this project, I learned how to:
 
 ---
 
-# 🔮 Future Improvements
-
-- Interactive dashboards using Plotly or Dash
-- Real-time stock price updates
-- Financial ratio analysis
-- Moving Average & RSI indicators
-- Predictive stock price forecasting using Machine Learning
-- Deploy as a Streamlit web application
-
----
-
 # 👨‍💻 Author
 
 ## **Piyush Tikiya**
 
-**Senior MIS Analyst | Data Analyst**
-
-**Skills**
-
-- SQL
-- Python
-- Power BI
-- Excel
-- Web Scraping
-- Data Visualization
+**Business Analyst**
 
 ---
-
 ⭐ **If you found this project helpful, consider giving it a Star!**
